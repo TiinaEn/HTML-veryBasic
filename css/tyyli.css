@@ -1,0 +1,19 @@
+body {
+
+    color: white;
+    background-color: wheat;
+}
+
+.eka {
+    color: black;
+    background-color: cadetblue;
+}
+
+h2.punainen {
+    color: darkmagenta
+}
+
+span.vihrea {
+    color: green;
+}
+

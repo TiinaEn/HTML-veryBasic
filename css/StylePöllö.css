@@ -1,0 +1,63 @@
+body {
+    background-color: #1f2532;
+    background-image: url("../HTML/OWL2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: justify;
+    }
+
+#o1, #o2, #o3 {
+    font-weight: bold;
+    color: fuchsia;
+    font-style: italic;
+}
+
+div.EkaOsio {
+    font-style: italic;
+    }
+
+p::first-letter {
+    font-size: 2em;
+}
+nav {
+    position: fixed;
+    top: 0;
+    word-spacing: 1cm;
+}
+nav li {
+    display: inline-block;
+    word-spacing: 5cm;
+}
+div.linkit {
+    width: 100%;
+    text-align: center;
+}
+div.Kaikki {
+    margin-top: 42px;
+    overflow: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    width: 92%;
+}
+ul {
+    list-style-type: none;
+}
+li a {
+    color: darkorange;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.boxBorder {
+    background-color: #1f2532;
+    border: 3px solid white;
+    padding: 10px;
+    margin-top: 100px;
+    font-style: italic;
+    width: 15%;
+    float: left;
+
+
+}
+

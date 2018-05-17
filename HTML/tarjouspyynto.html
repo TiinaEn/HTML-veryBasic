@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="http://localhost:3000/formhandler" method="post">
+    <p> Nimi: <input type="text" name="enimi"></p>
+    <p> Asiakastyyppi: <br>
+        <input type="radio" name="astyyppi" value="yritys" checked> Yritys <br>
+        <input type="radio" name="astyyppi" value="yksityinen"> Yksityinen<br>
+    <p> Email: <input type="text" name="email" maxlength="20"></p>
+    <p> Työn kiireellisyys: <select "kiireellisyys">
+        <option value="A">Pikatyö</option>
+        <option value="B">Viikko</option>
+        <option value="C">Kaksi viikkoa</option>
+        <option value="C">Kuukausi selected>kuukausi</option>
+        <option value="C">Enemmän</option>
+        </select>
+    </p>
+    <p>
+        <input type="submit" value="Lähetä">
+        <input type="reset" value="Tyhjennä">
+    </p>
+    <p> Kuvaus tarpeesta: <br>
+        <textarea name="tarve" rows="6" cols="70" maxlength="500"></textarea></p>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    background-color: #1f2532 ;
+    color: #f8f8ff;
+    text-align: justify;
+}
+
+
+h1.eka {font-family: Verdana;}
+h2.toka {font-family: Arial, sans-serif;}
+p.kolmas {font-family: 'Calligraffitti'}
+p.align {text-align: justify;}
+
+p::first-letter {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    display: inline-block;
+    background-color: #f8f8ff;
+    color: #1f2532;}
+span.nimi {font-style: italic;}
+
+nav {
+    position: fixed;
+    top: 0;
+
+    }
+
+ul {
+    list-style-type: none;
+    }
+
+li  {
+    text-decoration: none;
+    color: fuchsia;
+    display: inline;
+
+    }
+
+#content {
+    top: 60px;
+    overflow: auto;
+    }
+
+#vasen {
+    padding: 15px;
+    border: ghostwhite;
+
+    float: left;
+    width: 20%;
+
+
+}

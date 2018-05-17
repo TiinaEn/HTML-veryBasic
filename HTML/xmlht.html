@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange=tilavaihtuu; //kun kutsutaan
+    // funktiota, sulut perään. Kun tehdään
+    // tapahtumankäsittelijän sidontoja, ei tule sulkuja perään.
+    //on vain viittaus nimeen, ei funktioon. Eli ilman sulkuja,
+    //kertoo mikä funktio käsittelee tapahtuman. Jos sulut perässä
+    //kutsuu funktion toimintaa.
+    function Hae() {
+        xhr.open("GET", "Hello.txt");
+        xhr.send(null); //koska info siirtyy url-osoitteessa
+    }
+    function tilavaihtuu() {
+        if (xhr.readyState===4) {
+            console.log(xhr.responseText);
+            document.getElementById("tulos").innerHTML=xhr.responseText;
+        }
+      //  console.dir(xhr);
+    }
+    </script>
+</head>
+<body>
+<input type="button" value="Hae" onclick="Hae()">
+       <div id="tulos"></div>
+</body>
+</html>

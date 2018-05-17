@@ -1,0 +1,21 @@
+body {
+    background-image: url("../HTML/OWL2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: cornflowerblue;
+
+    }
+    h1, h2, p.tausta {background-color: white;
+    }
+span.nimi {font-style: italic;}
+
+nav {color: aqua;
+    text-decoration: underline;
+    position: fixed;
+    top: 0;
+}
+
+div.content {
+    top: 24px;
+    float: left;
+}
